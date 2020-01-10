@@ -1,0 +1,1 @@
+A full sample for TypeScript + React + Redux app

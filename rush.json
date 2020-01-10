@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.17.2",
+  "pnpmVersion": "4.7.1",
+  "pnpmOptions": {
+    "strictPeerDependencies": true
+  },
+  "nodeSupportedVersionRange": ">=12.14.0 <13.0.0",
+  "ensureConsistentVersions": true,
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 2,
+  "repository": {
+    "url": "https://github.com/Reza1024/react-typescript-webpack-rush-template"
+  },
+  "projects": [
+    {
+      "packageName": "app",
+      "projectFolder": "app",
+      "reviewCategory": "production",
+      "skipRushCheck": true,
+      "shouldPublish": false
+    }
+  ]
+}

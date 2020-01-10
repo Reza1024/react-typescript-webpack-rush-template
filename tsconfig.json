@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "decleration": true,
+        "declarationMap": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noFallThroughCaseInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturn": true,
+        "noUnusedLocal": true,
+        "noUnusedParameters": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "target": "es2017",
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "strict": true
+    }
+}
